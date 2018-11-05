@@ -1,0 +1,21 @@
+#Quote {
+    padding: 100px 0;
+    background-position: center;
+    background-size: cover;
+
+    .quote {
+        color: white;
+        font-family: $displayFont;
+        font-size: 2rem;
+        line-height: 1.3;
+        margin-top: 9rem;
+    
+        strong {
+            padding: 1.3rem;
+            font-weight: 700;
+            font-size: 1rem;
+            display: block;
+            text-align: center;
+        }
+    }
+    }

@@ -1,0 +1,36 @@
+header {
+    position: absolute;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    z-index: 20;
+
+    .logo{
+        
+        display: inline-block;
+        margin-left: 50px;
+        img {
+            height: 30px;
+        }
+    }
+    nav {
+        display: inline-block;
+        float: right;
+        text-align: right;
+        a,
+        i {
+            display: inline-block;
+            color: white;
+            font-size: .8rem;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 0 10px;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                color: $green;
+
+            }
+        }
+    }
+}

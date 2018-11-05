@@ -1,0 +1,53 @@
+body {
+    color: $black;
+}
+h5 {
+    font-family: $paragraphFont;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: $gray;
+    font-size: .7rem;
+    margin: .5rem 0 1rem;
+    
+    }
+h2 {
+    font-family: $displayFont;
+    font-size: 3rem;
+    margin: .5rem 0 3rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    
+    }
+
+    p {
+        font-family: $paragraphFont;
+        font-size: .9rem;
+        font-weight: 300;
+        color: $gray;
+        line-height: 2;
+        margin: .5rem 0 3rem;
+
+    }
+
+    a {
+        transition: all 0.5s ease-in-out;
+
+        &:hover {
+            color: $green;
+        }
+    }
+    strong {
+        font-weight: 600;
+        
+
+    }
+    em {
+        font-style: italic;
+    }
+    
+    .texturebg{
+    background-image: url("/img/bg.png");
+    background-position: center;
+    background-repeat: repeat;
+    }

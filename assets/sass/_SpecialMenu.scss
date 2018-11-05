@@ -1,0 +1,83 @@
+#SpecialMenu {
+    padding: 100px 0;
+    
+    h2,
+    h5 {
+        text-align: center;
+    }
+    .box {
+        background: #fff;
+        padding: 20px;
+
+        .box-img,
+        .box-img2,
+        .box-img3 {
+            width: 100%;
+            height: 200px;
+            background-image: url("https://images.unsplash.com/photo-1525059696034-4967a8e1dca2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ca584b395fcce461058ba92ab0eff61d&auto=format&fit=crop&w=668&q=80");
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            margin-bottom: 70px;
+            
+        }
+        .box-img2 {
+            background-image: url("https://images.unsplash.com/photo-1511689660979-10d2b1aada49?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=98cedda7b793cb553bdacc498216640e&auto=format&fit=crop&w=800&q=80");
+        }
+        .box-img3 {
+            background-image: url("https://images.unsplash.com/photo-1532768864916-b9773a6a4cc9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=02b293489fee0bb08e907cca3271399f&auto=format&fit=crop&w=2161&q=80");
+        }
+        .price-circle {
+            box-sizing: border-box;
+            position: absolute;
+            bottom: 0;
+            margin: 0 auto;
+            font-family: $displayFont;
+            font-size: 2.5em;
+            font-weight: 700;
+            background: white;
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            box-shadow: 0 0 0 10px rgba(255,255,255, .41)
+
+
+        }
+        .title {
+           display: block;
+           font-weight: 600;
+            text-align: center;
+            font-family: $paragraphFont;
+            color: $black;
+            
+        }
+        .details {
+            font-family: $paragraphFont;
+            color: $gray;
+            font-size: .8rem;
+            text-align: center;
+            line-height: 2;
+            margin: 0;
+        }   
+    }
+
+    .boxes{
+        padding-bottom: 50px;
+    }
+
+    a.link {
+        color: $black;
+        font-family: $displayFont;
+        font-weight: 700;
+        text-align: center;
+        display: block;
+
+
+    }
+}
+ 
